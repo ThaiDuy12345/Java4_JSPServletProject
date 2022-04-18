@@ -1,0 +1,137 @@
+.body{
+	position:relative;
+	width:100%;
+	min-height:700px;
+}
+.bodyCategory{
+	background-color:#051343;
+	opacity:0.1;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1%;
+	height:100%;
+	transition:0.5s;
+}
+.bodyCategory.peaceOut{
+	opacity:1;
+	width:20%;
+}
+.bodyCategory>div{
+	overflow:hidden;
+	width:100%;
+	margin: 30px auto;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.bodyCategory>div>button.displayButton{
+	overflow:hidden;
+	width:100%;
+	height:50px;
+	background-color:#051343;
+	color: #051343;
+	border:none;
+	font-weight:bold;
+	font-size: 18px;
+	margin: 0 0;
+	transition:0.1s;
+}
+.bodyCategory>div>button.displayButton.peaceOutButton{
+	color: white;
+}
+.bodyCategory>div>button.displayButton.peaceOutButton.pressingButton{
+	color: #c47309;
+}
+.bodyComponent{
+	width:100%;
+	height:100%;
+}
+.bodyComponent>div, .bodyComponent>form{
+	display:none;
+	width:90%;
+	min-height:90%;
+	margin:10px auto;
+}
+.bodyComponent>form.mainComponent{
+	border:none;
+	border-radius:10px;
+	height:50px;
+	display:block;
+}
+.bodyComponent>div#mainComponent{
+	display:block;
+}
+.bodyComponent>form>button{
+	border-radius:10px;
+	display:block;
+	width:15%;
+	height:100%;
+	border:none;
+	box-shadow:none;
+	background-color:#051343;
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	transition: 0.2s;
+}
+.bodyComponent>form>button:hover{
+	color: #c47309;
+}
+.thongKe{
+	border-radius: 15px;
+	clear:both;
+	width:100%;
+	height:100px;
+	background-color:#051343;
+	color:white;
+}
+.thongKe>.thongKeComponent{
+	float:left;
+	width:33.33%;
+	height:100%;
+}
+.thongKe>.thongKeComponent>.title{
+	width:100%;
+	height:20%;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+	font-size:23px;
+}
+.thongKe>.thongKeComponent>.value{
+	width:100%;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+	font-style:italic;
+	margin:5px auto;
+}
+.bodyComponent .video,.bodyComponent .table{
+	width:100%;
+	margin:10px auto;
+}
+.bodyComponent .table{
+	height:300px;
+	box-shadow:0 0 5px gray;
+	overflow: auto;
+}
+.bodyComponent .video>button, .bodyComponent .table>button{
+	display:block;
+	width:100%;
+	margin:5px auto;
+	height:40px;
+	border:none;
+	box-shadow:none;
+	background-color:#d7dffb;
+	color:black;
+	font-style:italic;
+	transition: 0.1s;
+}
+.bodyComponent .video>button:hover,  .bodyComponent .table>button:hover{
+	width:90%;
+    background-color: #071852;
+    Color:white;
+}
+
+

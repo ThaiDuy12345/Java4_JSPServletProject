@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PS16703_Assignment:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PS16703_Assignment</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PS16703_Assignment-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PS16703_Assignment:war exploded" />
+    </root>
+  </artifact>
+</component>

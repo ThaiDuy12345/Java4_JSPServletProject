@@ -1,0 +1,39 @@
+.header{
+	height:50px;
+}
+.bodySearch{
+	border-radius:10px;
+	width:90%;
+	margin:10px auto;
+	height:50px;
+}
+.bodySearch>input{
+	float:left;
+	border-radius:10px;
+	width:90%;
+	height:100%;
+	border:none;
+	background-color:#f8f9fe;
+	font-size:18px;
+	transition:0.5s;
+}
+.bodySearch>input:focus{
+	outline: none;
+	background-color: #e5e8fb;
+	box-shadow:0 0 5px black;
+}
+.bodySearch>button{
+	float:right;
+	border-radius:10px;
+	width:9%;
+	height:100%;
+	border:none;
+	background-color:#111A20;
+	color:white;
+	font-size:18px;
+	font-weight: bold;
+	transition:0.5s;
+}
+.bodySearch>button:hover{
+	color:#c47309;
+}

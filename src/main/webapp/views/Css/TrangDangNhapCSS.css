@@ -1,0 +1,109 @@
+.bodyComponent{
+	width:100%;
+	height:500px;
+	margin:50px auto;
+}
+.bodyComponent>div, .bodyComponent>form{
+	margin:auto;
+	width:50%;
+}
+.bodyComponent>.bodyDangNhapTitle{
+	display:flex;
+	height:20%;
+}
+.bodyComponent>.bodyDangNhapTitle>span{
+	font-size:35px;
+	font-weight:bold;
+	margin:20px auto;
+	width:100%;
+	text-align:center;
+}
+.bodyComponent>.bodyDangNhapForm, .bodyComponent>.bodyQuenMatKhauForm, .bodyComponent>.bodyThayDoiMatKhauForm{
+	height:50%;
+}
+.bodyComponent>.bodyQuenMatKhauForm>div{
+	width:100%;
+	height:20%;
+}
+.bodyComponent>.bodyDangNhapForm>div{
+	width:100%;
+	height:30%;
+}
+.bodyComponent>.bodyThayDoiMatKhauForm>div {
+	width:100%;
+	height:20%;
+}
+.bodyComponent>.bodyDangNhapForm>div>input{
+	display:block;
+	width:80%;
+	height:50%;
+	margin:auto;
+	border:none;
+	border-bottom:2px solid gray;
+	background:none;
+	font-size:15px;
+}
+.bodyComponent>.bodyThayDoiMatKhauForm>div>input{
+	display:block;
+	width:80%;
+	height:50%;
+	margin:auto;
+	border:none;
+	border-bottom:2px solid gray;
+	background:none;
+	font-size:15px;
+}
+.bodyComponent>.bodyQuenMatKhauForm>div>input{
+	display:block;
+	width:80%;
+	height:50%;
+	margin:auto;
+	border:none;
+	border-bottom:2px solid gray;
+	background:none;
+	font-size:15px;
+}
+.bodyComponent>.bodyDangNhapForm>div>input:focus, .bodyComponent>.bodyQuenMatKhauForm>div>input:focus, .bodyComponent>.bodyThayDoiMatKhauForm>div>input:focus{
+	outline:none;
+}
+.bodyComponent>.bodyDangNhapForm>div>div, .bodyComponent>.bodyQuenMatKhauForm>div>div, .bodyComponent>.bodyThayDoiMatKhauForm>div>div{
+	margin:20px auto;
+	width:80%;
+	height:50%;
+}
+
+.bodyComponent>.bodyDangNhapForm>div>div>button{
+	width:49%;
+	height:100%;
+	border:none;
+	background-color:#111A20;
+	color:white;
+	font-weight:bold;
+	border-radius:20px;
+	transition: 0.5s;
+}
+.bodyComponent>.bodyQuenMatKhauForm>div>div>button, .bodyComponent>.bodyThayDoiMatKhauForm>div>div>button{
+	width:100%;
+	height:100%;
+	border:none;
+	background-color:#111A20;
+	color:white;
+	font-weight:bold;
+	border-radius:20px;
+	transition: 0.5s;
+}
+.bodyComponent>.bodyDangNhapForm>div>div>button:hover, .bodyComponent>.bodyQuenMatKhauForm>div>div>button:hover, .bodyComponent>.bodyThayDoiMatKhauForm>div>div>button:hover{
+	color: #c47309;
+}
+.bodyComponent>.result{
+	display:flex;
+	height:10%;
+}
+.bodyComponent>.result>span{
+	font-size:30px;
+	font-weight:bold;
+	margin:20px auto;
+	width:100%;
+	text-align:center;
+	color:#ff6c6c;
+}
